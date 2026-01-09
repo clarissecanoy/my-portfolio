@@ -647,3 +647,36 @@ body {
         text-align: center;
     }
 }
+/* Responsive tweaks for smaller devices */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;  /* shrink the hero title on phones */
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        padding: 0 10px; /* add some padding */
+        max-width: 90%;   /* make it fit smaller screens */
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .services-grid,
+    .projects-grid,
+    .docs-grid,
+    .skills-container {
+        grid-template-columns: 1fr; /* stack cards vertically */
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
