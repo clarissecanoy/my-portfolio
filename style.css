@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #374151;
     scroll-behavior: smooth;
 }
 
@@ -42,7 +42,7 @@ body {
 .nav-logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2563eb;
+    color: #be185d;
 }
 
 .nav-menu {
@@ -52,14 +52,14 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: #374151;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-link:hover {
-    color: #2563eb;
+    color: #be185d;
 }
 
 .nav-link::after {
@@ -69,7 +69,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #2563eb;
+    background: #be185d;
     transition: width 0.3s ease;
 }
 
@@ -86,7 +86,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background: #333;
+    background: #374151;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -94,7 +94,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fbcfe8 0%, #db2777 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ body {
 }
 
 .highlight {
-    color: #fbbf24;
+    color: #64748b
 }
 
 .hero-subtitle {
@@ -146,12 +146,12 @@ body {
 }
 
 .btn-primary {
-    background: #2563eb;
+    background: #be185d;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
+    background: #9d174d;
     transform: translateY(-2px);
 }
 
@@ -163,7 +163,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #2563eb;
+    color: #be185d;
 }
 
 .scroll-down {
@@ -185,7 +185,7 @@ body {
 }
 
 .bg-light {
-    background: #f8fafc;
+    background: #fdf2f8;
 }
 
 .section-title {
@@ -204,7 +204,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: #2563eb;
+    background: #be185d;
     border-radius: 2px;
 }
 
@@ -232,7 +232,7 @@ body {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: #2563eb;
+    background: #be185d;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -278,7 +278,7 @@ body {
     display: block;
     font-size: 2rem;
     font-weight: bold;
-    color: #2563eb;
+    color: #be185d;
 }
 
 .stat-label {
@@ -301,8 +301,8 @@ body {
 
 .filter-btn {
     background: transparent;
-    border: 2px solid #2563eb;
-    color: #2563eb;
+    border: 2px solid #be185d;
+    color: #be185d;
     padding: 8px 20px;
     margin: 0 5px;
     border-radius: 25px;
@@ -312,7 +312,7 @@ body {
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: #2563eb;
+    background: #be185d;
     color: white;
 }
 
@@ -350,8 +350,8 @@ body {
 
 .tech-tag {
     display: inline-block;
-    background: #e5e7eb;
-    color: #374151;
+    background: #fbcfe8;
+    color: #7a1f46;
     padding: 4px 12px;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -365,13 +365,13 @@ body {
 }
 
 .project-link {
-    color: #2563eb;
+    color: #be185d;
     text-decoration: none;
     font-weight: 500;
 }
 
 .project-link:hover {
-    color: #1d4ed8;
+    color: #9d174d;
 }
 
 /* Documentation Section */
@@ -397,7 +397,7 @@ body {
 .doc-icon {
     width: 80px;
     height: 80px;
-    background: #10b981;
+    background: #ec4899;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -411,7 +411,7 @@ body {
 }
 
 .doc-link {
-    color: #10b981;
+    color: #ec4899;
     text-decoration: none;
     font-weight: 500;
     display: inline-flex;
@@ -421,7 +421,7 @@ body {
 }
 
 .doc-link:hover {
-    color: #059669;
+    color: #db2777;
 }
 
 /* QA & PM Approach */
@@ -444,7 +444,7 @@ body {
 .approach-number {
     width: 60px;
     height: 60px;
-    background: #2563eb;
+    background: #be185d;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -484,7 +484,7 @@ body {
 }
 
 .skill-bar {
-    background: #e5e7eb;
+    background: #fbcfe8;
     height: 10px;
     border-radius: 5px;
     overflow: hidden;
@@ -492,7 +492,7 @@ body {
 
 .skill-progress {
     height: 100%;
-    background: #2563eb;
+    background: #be185d;
     border-radius: 5px;
     transition: width 2s ease;
 }
@@ -517,7 +517,7 @@ body {
 
 .contact-item i {
     width: 20px;
-    color: #2563eb;
+    color: #be185d;
 }
 
 .social-links {
@@ -529,7 +529,7 @@ body {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #2563eb;
+    background: #be185d;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -540,7 +540,7 @@ body {
 }
 
 .social-link:hover {
-    background: #1d4ed8;
+    background: #9d174d;
     transform: translateY(-3px);
 }
 
@@ -562,7 +562,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: #be185d;
 }
 
 /* Footer */
